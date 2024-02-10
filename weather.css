@@ -1,0 +1,98 @@
+* {
+    font-family: sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/pics/pexels-david-besh-884788.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+
+.container .inner-container {
+
+    background-color: rgba(0, 0, 0, 0.800);
+    border-radius: 2rem;
+    color: #fff;
+    
+}
+
+.container .inner-container>* {
+    width: 25rem;
+    
+    margin: 1rem 1.5rem;
+    display: flex;
+
+    color: #e7ebe3;
+    user-select: none;
+}
+
+.container .inner-container input {
+    border-radius: 3rem;
+    width: 100%;
+    background-color: rgba(196, 190, 190, 0.116);
+    border: none;
+    color: #fff;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.inner-container input:active{
+    border: none;
+}
+
+.container .inner-container .inputs svg {
+    width: 20px;
+    
+}
+
+.container .inner-container .svg-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    aspect-ratio: 1/1;
+    background-color: rgba(196, 190, 190, 0.116);
+    border-radius: 3rem;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.title{
+    font-size: 1.7rem;
+    font-weight: 400;
+    
+}
+.degree{
+    font-size: 2.1rem;
+    font-weight: 400;
+    padding: 5px;
+
+}
+.weahter{
+    padding: 19px;
+}
+.inner-container h2{
+    font-size: 1rem;
+    font-weight: 200;
+}
+.humidity{
+    margin: 0;
+}
+.wind{
+    margin: 0;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    
+}
